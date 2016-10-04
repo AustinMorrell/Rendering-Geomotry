@@ -1,17 +1,11 @@
 #pragma once
-#include <iostream>
-#include "gl_core_4_4.h"
 #include "Gizmos.h"
-#include <GLFW\glfw3.h>
-#include <glm\glm.hpp>
-#include <glm\ext.hpp>
 #include <fstream>
 #include <string>
 #include <vector>
 #include <math.h>
+#include "FlyCamera.h"
 #define PI 3.14159265358979323846
-using glm::vec3;
-using glm::mat4;
 
 struct Vertex
 {
@@ -47,12 +41,13 @@ public:
 	std::vector<unsigned int> indicesHolder;
 	void createSphere(const int radius, const unsigned int verts, const unsigned int halfSpheres);
 	void drawSphere();
-
+	double DeltaTime;
 private:
 	glm::mat4 m_projectionViewMatrix;
-	glm::mat4 view;
-	glm::mat4 projection;
 	GLFWwindow* window;
+	FlyCamera Cam;
+	double pastTime = 0;
+	double newTime;
 	unsigned int m_programID;
 	unsigned int p_vao;
 	unsigned int p_vbo;

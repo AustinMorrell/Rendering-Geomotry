@@ -1,3 +1,11 @@
-﻿  Textures.cpp
-  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Advanced Texturing\Debug\Textures.exe
-  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Advanced Texturing\Debug\Textures.pdb (Partial PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Textures.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  RenderingGeometry.cpp
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(227): warning C4018: '<': signed/unsigned mismatch
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(229): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(240): warning C4018: '<': signed/unsigned mismatch
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(242): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(243): warning C4018: '<': signed/unsigned mismatch
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(264): warning C4018: '<': signed/unsigned mismatch
+c:\users\austin.morrell.aie\desktop\rendering geomotry\textures\renderinggeometry.cpp(274): warning C4018: '<': signed/unsigned mismatch
+  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Rendering Geomotry\Debug\Rendering.exe
+  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Rendering Geomotry\Debug\Rendering.pdb (Partial PDB)
