@@ -1,3 +1,16 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Textures.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   RenderingGeometry.cpp
-RenderingGeometry.cpp : fatal error C1041: cannot open program database 'C:\Users\Austin.Morrell.AIE\Desktop\Rendering Geomotry\Textures\Release\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+RenderingGeometry.cpp(229): warning C4018: '<': signed/unsigned mismatch
+RenderingGeometry.cpp(231): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+RenderingGeometry.cpp(242): warning C4018: '<': signed/unsigned mismatch
+RenderingGeometry.cpp(244): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+RenderingGeometry.cpp(245): warning C4018: '<': signed/unsigned mismatch
+RenderingGeometry.cpp(266): warning C4018: '<': signed/unsigned mismatch
+RenderingGeometry.cpp(276): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 610 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Rendering Geomotry\Release\Rendering.exe
+  Textures.vcxproj -> C:\Users\Austin.Morrell.AIE\Desktop\Rendering Geomotry\Release\Rendering.pdb (Full PDB)
